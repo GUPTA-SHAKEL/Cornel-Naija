@@ -89,7 +89,7 @@ print  """
 ║║║║║║╔═╗║║║╚╣║║╚╗
 ╚╝╚╝╚╩╝─╚╩╝╚═╩╝╚═╝
                                                  
-\033[1;97m\x1b[1;96m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+\033[1;97m\x1b[1;96m••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91m\x1b[1;91m This Tool is only for Toppers
                     
 \033[1;94m\x1b[1;94mfacebook    Mark Cornel
@@ -97,9 +97,9 @@ print  """
 \033[1;91m\x1b[1;95mWhatsap Number +2347013107449
                      
 \x1b[1;94mTools Updated every week
-     \x1b[1;93m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+     \x1b[1;93m•••••••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;96m.\x1b[1;92mNigerian Number Cloning.
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••                
+\033[1;97m••••••••••••••••••••••••••••••••••••••••••••••••••••••••                
 \033[1;92m-\x1b[1;94mMark C--------------------------------------
 """
  
@@ -111,30 +111,30 @@ logo1 = """
 
 
 
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;96m-\x1b[1;93mWithout login Tools..
-\033[1;97m
+\033[1;97m❤️❤️❤️❤️❤️❤️❤️ ENJOY ❤️❤️❤️❤️❤️❤️❤️
                      
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••
 """
 logo2 = """
-\033[1;91m\x1b[1;93m
+\033[1;91m\x1b[1;93m❤️❤️❤️USE 4G NETWORK ❤️❤️❤️❤️❤️
 
  
-\033[1;97m•••••••••••••••••••••••••••••••••••Mark••••••••••••••••••••••••••••••••••    ..
-\033[1;97m•••••••••••••••••••••••••••••••••••Cornel•••••••••••••••••••••••••••••••••      
+\033[1;97m•••••••••••••••••••••••••••••••••••Mark••••••••••••••••
+\033[1;97m•••••••••••••••••••••••••••••••••••Cornel••••••••••••••    
  
                      
 \033[1;94mFACEBOOK-\x1b[1;94mMark Cornel
                   
                      
-\033[1;92mWHATAAPP \x1b[1;93m+2347013107449
+\033[1;94mWHATAAPP \x1b[1;93m+2347013107449
                       
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
-\033[1;96m -\x1b[1;92mCrack Nigerian Numbers 
+\033[1;97m -\x1b[1;92mCrack Nigerian Numbers 
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••      
                                                 
-\033[1;97m----------------------\x1b[1;96mFamous-King--------------------
+\033[1;97m-----------\x1b[1;96mFamous-King-------------
 """
 CorrectUsername = "FAMOUS"
 CorrectPassword = "KING"
@@ -166,11 +166,11 @@ def lisensi():
 def login():
     os.system('clear')
     print logo1
-    print "\033[1;91m[1]\x1b[1;91mCloning ( \033[1;92m menu)"
+    print "\033[1;91m[1]\x1b[1;96mCloning ( \033[1;92m menu)"
     time.sleep(0.05)
-    print "\033[1;95m[2]\x1b[1;94mupdate (9.0)"
+    print "\033[1;95m[2]\x1b[1;96mupdate (9.0)"
     time.sleep(0.05)
-    print '\x1b[1;94m[0]\033[1;91m Exit ( Back)'
+    print '\x1b[1;94m[0]\033[1;96m Exit ( Back)'
     pilih_login()
  
 def pilih_login():
@@ -183,19 +183,19 @@ def pilih_login():
 def Zeek():
     os.system('clear')
     print logo1
-    print '\x1b[1;91m[1]  start cracking'
+    print '\x1b[1;94m[1]  start cracking'
     time.sleep(0.10)
-    print '\x1b[1;92m[2] queeneth.amadi.3'
+    print '\x1b[1;94m[2] queeneth.amadi.3'
     time.sleep(0.10)
-    print '\x1b[1;93m[3] Mark Hacker'
+    print '\x1b[1;94m[3] Mark Hacker'
     time.sleep(0.10)
-    print '\x1b[1;93m[4] Mark Brand'
+    print '\x1b[1;94m[4] Mark Brand'
     time.sleep(0.10)
-    print '\x1b[1;92m[5] eror problem'
+    print '\x1b[1;94m[5] eror problem'
     time.sleep(0.10)
-    print '\x1b[1;91m[6]  Famous king '
+    print '\x1b[1;94m[6]  Famous king '
     time.sleep(0.10)
-    print '\x1b[1;93m[0] back'
+    print '\x1b[1;94m[0] back'
    
     time.sleep(0.05)
     action()
@@ -209,8 +209,8 @@ def action():
         os.system("clear")
         print logo2
         print "Wellcome to Mark Tools"+'\n'
-        print '\x1b[1;91mEnter any code 01 to 49'
-        print '\x1b[1;92mtelenor.\x1b[1;91mjazz.\x1b[1;93mMTN.\x1b[1;95mAirtel.9mobile'
+        print '\x1b[1;91mENTER ANY CODE 070,081,090,091,080'
+        print '\x1b[1;92mtelenor.\x1b[1;91mGLO.\x1b[1;93mMTN.\x1b[1;95mAirtel.9mobile'
         try:
             c = raw_input("\033[1;97mCHOOSE : ")
             k="03"
@@ -228,10 +228,10 @@ def action():
         action()
     print 50* '\033[1;94m-'
     xxx = str(len(id))
-    jalan ('\033[1;91m Total ids number: '+xxx)
-    jalan ('\033[1;92mCode you choose: '+c)
+    jalan ('\033[1;93m Total ids number: '+xxx)
+    jalan ('\033[1;93mCode you choose: '+c)
     jalan ("\033[1;93mWait A While \x1b[1;94mStart Cracking...")
-    jalan ("\033[1;94mTo Stop Process Press Ctrl+z")
+    jalan ("\033[1;93mTo Stop Process Press Ctrl+z")
     print 50* '\033[1;97m-'
     def main(arg):
         global cpb,oks
