@@ -80,7 +80,7 @@ vuln = "\033[32mVuln"
  
 os.system("clear")
 print  """
-\033[1;91m\x1b[1;92m══
+\033[1;96m\x1b[1;97m══
 
 ╔═╗╔═╦═══╦═══╦╗╔═╗
 ║║╚╝║║╔═╗║╔═╗║║║╔╝
@@ -98,7 +98,7 @@ print  """
                      
 \x1b[1;94mTools Updated every week
      \x1b[1;93m•••••••••••••••••••••••••••••••••••••      
-\033[1;96m.\x1b[1;92m🇳🇬Nigerian Number Cloning 🇳🇬
+\033[1;96m.\x1b[1;92mNigerian Number Cloning 🇳🇬
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••                
 \033[1;92m-\x1b[1;94mMark C--------------------------------------
 """
@@ -184,16 +184,6 @@ def Zeek():
     os.system('clear')
     print logo1
     print '\x1b[1;95m[1]  start cracking'
-    time.sleep(0.10)
-    print '\x1b[1;93m[2] queeneth.amadi.3'
-    time.sleep(0.10)
-    print '\x1b[1;92m[3] Mark Hacker'
-    time.sleep(0.10)
-    print '\x1b[1;91m[4] Mark Brand'
-    time.sleep(0.10)
-    print '\x1b[1;96m[5] eror problem'
-    time.sleep(0.10)
-    print '\x1b[1;97m[6]  Famous king '
     time.sleep(0.10)
     print '\x1b[1;94m[0] back'
    
