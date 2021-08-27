@@ -111,11 +111,11 @@ logo1 = """
 
 
 
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;96m-\x1b[1;93mWithout login Tools..
 \033[1;97m❤️❤️❤️❤️❤️❤️❤️ ENJOY ❤️❤️❤️❤️❤️❤️❤️
                      
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••
 """
 logo2 = """
 \033[1;91m\x1b[1;93m❤️❤️❤️USE 4G NETWORK ❤️❤️❤️❤️❤️
@@ -130,9 +130,9 @@ logo2 = """
                      
 \033[1;94mWHATAAPP \x1b[1;93m+2347013107449
                       
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••      
 \033[1;97m -\x1b[1;92mCrack Nigerian Numbers 
-\033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••••••••••      
+\033[1;97m•••••••••••••••••••••••••••••••••••••••••      
                                                 
 \033[1;97m-----------\x1b[1;96mFamous-King-------------
 """
@@ -183,17 +183,17 @@ def pilih_login():
 def Zeek():
     os.system('clear')
     print logo1
-    print '\x1b[1;94m[1]  start cracking'
+    print '\x1b[1;95m[1]  start cracking'
     time.sleep(0.10)
-    print '\x1b[1;94m[2] queeneth.amadi.3'
+    print '\x1b[1;93m[2] queeneth.amadi.3'
     time.sleep(0.10)
-    print '\x1b[1;94m[3] Mark Hacker'
+    print '\x1b[1;92m[3] Mark Hacker'
     time.sleep(0.10)
-    print '\x1b[1;94m[4] Mark Brand'
+    print '\x1b[1;91m[4] Mark Brand'
     time.sleep(0.10)
-    print '\x1b[1;94m[5] eror problem'
+    print '\x1b[1;96m[5] eror problem'
     time.sleep(0.10)
-    print '\x1b[1;94m[6]  Famous king '
+    print '\x1b[1;97m[6]  Famous king '
     time.sleep(0.10)
     print '\x1b[1;94m[0] back'
    
