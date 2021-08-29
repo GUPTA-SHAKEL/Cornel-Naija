@@ -169,10 +169,11 @@ def action():
         os.system("clear")
         print logo2
         print "Enter any Nigerian Mobile code Number"+'\n'
-        print '\x1b[1;91mEnter any SIM codes for Nigerians >> 090 , 080, 081, 070 091'
+        print '\x1b[1;91mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911, 711
+MTN, AIRTEL, 9MOBILE, GLO'
         
         try:
-            c = raw_input("\033[1;97mGUPTA➤")
+            c = raw_input("\033[1;92mGUPTA➤")
             k="+234"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
