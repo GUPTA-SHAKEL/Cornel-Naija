@@ -172,7 +172,7 @@ def action():
         print '\x1b[1;93mEnter any SIM codes for Nigerians >> 907, 906, 706, 710, 714, 811, 911'
         
         try:
-            c = raw_input("\033[1;94mGUPTA---➤")
+            c = raw_input("\033[1;91mGUPTA---➤")
             k="+234"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
