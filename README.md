@@ -25,7 +25,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gupta-shakel&label=Profile%20views&color=0e75b6&style=flat" alt="gupta-shakel" /> </p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://fb.com/gupta.shakel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facbook.svg" alt="gupta.shakel" height="30" width="40" /></a>
+<a href="https://fb.com/gupta.shakel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="gupta.shakel" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/mark-tech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mark-tech" height="30" width="40" /></a>
 </p>
 
