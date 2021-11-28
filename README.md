@@ -1,16 +1,6 @@
 'WITHOUT LOGIN CLONING ❤️
 
-**apt update**
 
-**apt upgrade**
-
-**apt install python**
-
-**apt install python2**
-
-**apt install git**
-
-** install nodejs**
 
 **termux-setup-storage**
 
